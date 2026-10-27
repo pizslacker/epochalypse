@@ -23,7 +23,7 @@
 
 int main (void)
 {
-    char *pn = "Epochalypse bug (S2C)";
+    char *pn = "Epochalypse bug (S2C/Y2K38)";
     char *pv = "1.0";
     printf("%s v%s\n", pn, pv);
     printf("======================================\n");
