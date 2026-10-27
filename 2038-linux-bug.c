@@ -23,9 +23,9 @@
 
 int main (void)
 {
-    char *pnavn = "2038-linux-bug (S2C)";
-    char *pversjon = "1.0";
-    printf("%s v%s\n", pnavn, pversjon);
+    char *pn = "2038-linux-bug (S2C)";
+    char *pv = "1.0";
+    printf("%s v%s\n", pn, pv);
     printf("======================================\n");
     time_t t;
     t = (time_t) (0);
