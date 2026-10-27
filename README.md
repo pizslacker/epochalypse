@@ -37,4 +37,13 @@ In traditional 32-bit Unix and Linux systems, `time_t` is a signed 32-bit intege
 
 ### How to Force the Bug on a 64-bit Machine
 
-If you want to see the genuine 1901 date rollover on a modern 64-bit Linux system, this project compiles to both `32-bit` and `64-bit` binaries.
+If you want to see the genuine 1901 date rollover on a modern 64-bit Linux system, this project compiles to both `32-bit` and `64-bit` binaries. Just run the following:
+```bash
+make run
+```
+
+### License
+
+This project is open-source software licensed under the GNU General Public License v3.0 (GPLv3). See the LICENSE file for terms and conditions.
+
+Copyright (C) k!M/pizslacker 2014-2026
