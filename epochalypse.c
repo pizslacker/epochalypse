@@ -1,5 +1,5 @@
 /*
- * 2038-linux-bug
+ * epochalypse
  * Copyright (C) k!M/pizslacker 2014-2026
  *
  * This program is free software: you can redistribute it and/or modify
