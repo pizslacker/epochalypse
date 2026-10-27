@@ -6,7 +6,7 @@ Example output:
 ```bash
 === Running 64-bit version ===
 ./epochalypse-64
-Epochalypse bug (S2C) v1.0
+Epochalypse bug (S2C/Y2K38) v1.0
 ======================================
           0, Thu Jan  1 00:00:00 1970
   100000000, Sat Mar  3 09:46:40 1973
@@ -17,7 +17,7 @@ Epochalypse bug (S2C) v1.0
 
 === Running 32-bit version ===
 ./epochalypse-32
-Epochalypse bug (S2C) v1.0
+Epochalypse bug (S2C/Y2K38) v1.0
 ======================================
           0, Thu Jan  1 00:00:00 1970
   100000000, Sat Mar  3 09:46:40 1973
