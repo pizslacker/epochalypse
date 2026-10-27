@@ -1,6 +1,6 @@
 # Epochalypse
 
-This C program demonstrates the Year 2038 problem (also known as the Y2K38 or Epochalypse bug), showing what happens when a 32-bit signed integer tracking Unix time overflows.
+This C program demonstrates the **Year 2038 problem** (also known as the **Y2K38** or **Epochalypse bug**), showing what happens when a 32-bit signed integer tracking Unix time overflows.
 
 Example output:
 ```bash
