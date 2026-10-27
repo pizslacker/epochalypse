@@ -14,10 +14,12 @@ all: $(BIN64) $(BIN32)
 # Build 64-bit executable
 $(BIN64): $(SRC)
 	$(CC) $(CFLAGS) -m64 $(SRC) -o $(BIN64)
+    strip $(BIN64)
 
 # Build 32-bit executable
 $(BIN32): $(SRC)
 	$(CC) $(CFLAGS) -m32 $(SRC) -o $(BIN32)
+    strip $(BIN32)
 
 # Run both side-by-side to compare output
 run: all
