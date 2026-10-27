@@ -9,3 +9,7 @@ In traditional 32-bit Unix and Linux systems, `time_t` is a signed 32-bit intege
 2. **Current Time** (`time(NULL)`): Reads your system's live clock and prints the current Unix timestamp and UTC date.
 3. **The 32-bit Limit** (`2147483647`): Sets `t` to $2^{31} - 1$, the maximum positive value a signed 32-bit integer can hold (`0x7FFFFFFF` in hexadecimal), which corresponds to January 19, 2038, at 03:14:07 UTC.
 4. **The Rollover** (`t++`): Adds 1 second. On a 32-bit system, the binary value flips from `01111111...` to `10000000...` (`-2147483648`), wrapping the clock backward to December 13, 1901, at 20:45:52 UTC.
+
+### How to Force the Bug on a 64-bit Machine
+
+If you want to see the genuine 1901 date rollover on a modern 64-bit Linux system, this project compiles to both `32-bit` and `64-bit` binaries.
