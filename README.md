@@ -5,24 +5,24 @@ This C program demonstrates the Year 2038 problem (also known as the Y2K38 or Ep
 Example output:
 ```bash
 === Running 64-bit version ===
-./2038-linux-bug-64
-2038-linux-bug (S2C) v1.0
+./epochalypse-64
+Epochalypse bug (S2C) v1.0
 ======================================
           0, Thu Jan  1 00:00:00 1970
   100000000, Sat Mar  3 09:46:40 1973
   900000000, Thu Jul  9 16:00:00 1998
- 1793137056, Tue Oct 27 21:37:36 2026
+ 1793139287, Tue Oct 27 22:14:47 2026
  2147483647, Tue Jan 19 03:14:07 2038
 -2147483648, Tue Jan 19 03:14:08 2038
 
 === Running 32-bit version ===
-./2038-linux-bug-32
-2038-linux-bug (S2C) v1.0
+./epochalypse-32
+Epochalypse bug (S2C) v1.0
 ======================================
           0, Thu Jan  1 00:00:00 1970
   100000000, Sat Mar  3 09:46:40 1973
   900000000, Thu Jul  9 16:00:00 1998
- 1793137056, Tue Oct 27 21:37:36 2026
+ 1793139287, Tue Oct 27 22:14:47 2026
  2147483647, Tue Jan 19 03:14:07 2038
 -2147483648, Fri Dec 13 20:45:52 1901
 ```
