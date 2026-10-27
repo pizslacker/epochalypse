@@ -44,6 +44,6 @@ make run
 
 ### License
 
-This project is open-source software licensed under the GNU General Public License v3.0 (GPLv3). See the LICENSE file for terms and conditions.
+This project is open-source software licensed under the GNU General Public License v3.0 (GPLv3). See the [LICENSE](LICENSE) file for terms and conditions.
 
 Copyright (C) k!M/pizslacker 2014-2026
