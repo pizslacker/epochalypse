@@ -1,10 +1,10 @@
 CC = gcc
 CFLAGS = -Wall -Wextra
-SRC = 2038-linux-bug.c
+SRC = epochalypse.c
 
 # Output binary names
-BIN64 = 2038-linux-bug-64
-BIN32 = 2038-linux-bug-32
+BIN64 = epochalypse-64
+BIN32 = epochalypse-32
 
 .PHONY: all clean run
 
